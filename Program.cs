@@ -23,4 +23,6 @@ app.MapStaticAssets();
 app.MapRazorPages()
    .WithStaticAssets();
 
+Console.Write("Starting site");
+
 app.Run();
